@@ -23,6 +23,7 @@ Input the values
 End the program
 
 ## PROGRAM:
+```
  program to find the number of words in a text file
  Developed by : sivakumar.R
  Register number : 212223230209
@@ -32,6 +33,7 @@ with open("story.txt","r") as f1:
         word=i.split()
         num += len(word)
 print("The number of words are in the file is ",num)
+```
 
 ### OUTPUT:
 ![Screenshot 2024-05-10 182932](https://github.com/SIVAmech123/Word-Count/assets/151629067/8553656f-05d5-45d7-bf46-8796962bd2da)
